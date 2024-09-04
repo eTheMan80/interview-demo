@@ -77,7 +77,12 @@ function App() {
             <TableBody>
               {data?.map((item) => {
                 return (
-                  <TableRow key={item.id}>
+                  <TableRow
+                    key={item.id}
+                    sx={{
+                      backgroundColor: `${item.rating === 1 ? "green" : "red"}`,
+                    }}
+                  >
                     <TableCell>{item.id}</TableCell>
                     <TableCell>
                       <form
