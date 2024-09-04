@@ -80,7 +80,11 @@ function App() {
                   <TableRow key={item.id}>
                     <TableCell>{item.id}</TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="text"
                           name="courseId"
@@ -90,7 +94,11 @@ function App() {
                       </form>
                     </TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="text"
                           name="name"
@@ -100,7 +108,11 @@ function App() {
                       </form>
                     </TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="text"
                           name="description"
@@ -110,7 +122,11 @@ function App() {
                       </form>
                     </TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="text"
                           name="userId"
@@ -120,7 +136,11 @@ function App() {
                       </form>
                     </TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="text"
                           name="userName"
@@ -130,7 +150,11 @@ function App() {
                       </form>
                     </TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="number"
                           name="position"
@@ -140,7 +164,11 @@ function App() {
                       </form>
                     </TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="text"
                           name="rating"
@@ -150,7 +178,11 @@ function App() {
                       </form>
                     </TableCell>
                     <TableCell>
-                      <form name={`${item.id}`} onSubmit={handleSubmitForm}>
+                      <form
+                        name={`${item.id}`}
+                        onSubmit={handleSubmitForm}
+                        data-testid={`form-${item.id}`}
+                      >
                         <input
                           type="text"
                           name="status"
