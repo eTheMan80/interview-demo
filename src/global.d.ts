@@ -7,6 +7,7 @@ type CourseProps = {
   position: number
   rating: number
   status: number
+  updatedAt?: string
   userId: string
   userName: string
 }
